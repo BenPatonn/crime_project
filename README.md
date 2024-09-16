@@ -12,7 +12,8 @@
 
 ### A) Instructions for pipeline use:
 
-	1. Download 'all_crime_data' folder and put into python directory
+ 	1. Create folder in directory called 'all_crime_data'
+  		a. Create folders within 'all_crime_data' for each dataset named: 'crime_datasets', 'deprivation_datasets', 'lsoa_datasets', 'population_datasets', 'property_datasets' for respective datasets
  
 	2. Run 'Crime pipeline python.py' in Vscode
  
