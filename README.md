@@ -10,7 +10,7 @@
 
 ## Read me for 'Crime Project pipeline.py': 
 
-A) Instructions for pipeline use:
+### A) Instructions for pipeline use:
 
 	1. Download 'all_crime_data' folder and put into python directory
  
@@ -24,7 +24,7 @@ A) Instructions for pipeline use:
  
 	  
 
-B) Data sets with original download sources (for data dictionary see link):
+### B) Data sets with original download sources (for data dictionary see link):
 
 	1. Street dataset - 01/22-12/23 'Merseyside' and 'Nottinghamshire' files containing 'street' keyword
 		https://data.police.uk/data/ 
@@ -47,7 +47,7 @@ B) Data sets with original download sources (for data dictionary see link):
     	7. Deprivation dataset
 		https://www.ons.gov.uk/datasets/create/filter-outputs/97ee5577-2246-4756-86ce-30712c35a418#get-data
 
-C) Reporting layer Outputs:
+### C) Reporting layer Outputs:
 	Located in folder within directory:
 	'/crime_data_outputs/aggregated_dataframes/'
 
@@ -64,7 +64,7 @@ C) Reporting layer Outputs:
 	6. 'sas_outcome_agg_output' - grouped by 'Area' and 'Outcome'
 
 
-D) How processes are separated between Staging, Primary and Reporting layers (see docstrings for specific applications to each dataframe):
+### D) How processes are separated between Staging, Primary and Reporting layers (see docstrings for specific applications to each dataframe):
 
 	Staging:
 		Loads, processes, and outputs data from various CSV datasets, performing the necessary staging 
